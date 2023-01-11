@@ -5,5 +5,8 @@ git clone https://token_code@repo_name
 cd into home directory (cd ~)
 vagrant ssh
 
+# before shutting your pc use;
+vagrant halt
+
 # to see the root files
 ls /
