@@ -10,3 +10,10 @@ vagrant halt
 
 # to see the root files
 ls /
+
+# to enter the root files
+cd /
+
+# to go to home
+cd ~
+
