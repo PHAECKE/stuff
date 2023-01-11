@@ -1,0 +1,9 @@
+# to clone a repo without needing to enter password all the time;
+git clone https://token_code@repo_name
+
+# to start vagrant;
+cd into home directory (cd ~)
+vagrant ssh
+
+# to see the root files
+ls /
