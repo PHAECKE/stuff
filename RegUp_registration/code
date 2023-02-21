@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RegUp Registration Form</title>
+</head>
+<body>
+	<h1>RegUp Registration Form</h1>
+	<form>
+		<label for="first-name">First Name:</label>
+		<input type="text" id="first-name" name="first-name" required><br>
+
+		<label for="last-name">Last Name:</label>
+		<input type="text" id="last-name" name="last-name" required><br>
+
+		<label for="age">Age:</label>
+		<input type="number" id="age" name="age" required><br>
+
+		<label for="id-type">ID Type:</label>
+		<select id="id-type" name="id-type">
+			<option value="passport">Passport</option>
+			<option value="driver-license">Driver's License</option>
+			<option value="national-id">National ID</option>
+			<option value="other">Other</option>
+		</select><br>
+
+		<label for="id-number">ID Number:</label>
+		<input type="text" id="id-number" name="id-number" required><br>
+
+		<label for="date">Date:</label>
+		<input type="date" id="date" name="date" required><br>
+
+		<label for="time">Time:</label>
+		<input type="time" id="time" name="time" required><br>
+
+		<label for="location">Location:</label>
+		<input type="text" id="location" name="location" required><br>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
